@@ -1,4 +1,4 @@
-FROM python:3.7.5-slim
+FROM python:3.8.12-slim
 
 ENV PYTHONUNBUFFERED=TRUE
 
@@ -10,9 +10,9 @@ COPY ["Pipfile", "Pipfile.lock", "./"]
 RUN pipenv install --deploy --system && \
     rm -rf /root/.cache
 
-COPY ["*.py", "churn-model.bin", "./"]
+COPY ["churn_service.py", "predict.py", "model.pkl", "./"]
 
 EXPOSE 9696
 
-ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:9696", "churn_serving:app"] 
+ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:9696", "churn_service:app"] 
 

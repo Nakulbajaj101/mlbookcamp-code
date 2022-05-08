@@ -11,6 +11,9 @@ numpy = "*"
 scikit-learn = "*"
 flask = "*"
 gunicorn = "*"
+pandas = "*"
+tqdm = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"
