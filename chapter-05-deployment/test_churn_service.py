@@ -1,7 +1,9 @@
 import requests
 import json 
 
-url = "http://localhost:9696/predict"
+endpoint = "http://localhost:9696"
+
+url = f"{endpoint}/predict"
 
 customer = {'tenure': 1, 
         'monthlycharges': 29.85, 
