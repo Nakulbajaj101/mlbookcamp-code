@@ -9,6 +9,16 @@
 
 ## Taking the course
 
+### 2022 Cohort
+
+We start the course again in September 2022
+
+* [Sign up here](https://airtable.com/shryxwLd0COOEaqXo) (it's not automated, so you will not receive a confirmation email after filling the form)
+* Register at [DataTalks.Club](https://DataTalks.Club/slack.html) and join the `#course-ml-zoomcamp` channel 
+* Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
+* [Tweet about it](https://ctt.ac/XZ6b9)
+* Tentative start date: September 5
+
 ### Self-paced mode
 
 You can take the course at your own pace. All the materials are freely available, and you can start learning at any time.
@@ -23,13 +33,14 @@ To take the best out of this course, we recommened this:
 
 Of course, you can take each module independently.
 
+### Pre-preqiusites
 
-### 2022 Cohort
+* Prior programming experience (at least 1+ year)
+* Being comfortable with command line 
+* No prior exposure to machine learning is required
+* Nice to have: Python (but you can learn it during the course)
+* Prior exposure to linear algebra will be helpful (e.g. you studied it in college but forgot)
 
-We plan to offer the course again in September 2022
-
-* If you'd like to be notified about it, [fill in this form](https://airtable.com/shr6Gz46UZCgJ9l6w)
-* [Public calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 
 
 ## Previous cohorts
@@ -215,3 +226,12 @@ Writing an article about something not covered in the course.
 ## 14. [Third project](14-project) (optional)
 
 For those who love projects!
+
+
+## Our other courses
+
+If you liked this course, you'll like other courses from us:
+
+* [Data Engineering Zoomcamp - free 9-week course about Data Engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
+* [MLOps Zoomcamp - free 10-week course about MLOps](https://github.com/DataTalksClub/mlops-zoomcamp)
+
