@@ -2,9 +2,15 @@
 
 <a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR"><img src="../images/zoomcamp.jpg" /></a>
 
+
+<p align="center">
+  <a href="https://airtable.com/shryxwLd0COOEaqXo"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+</p>
+
 * [Course overview video](https://www.youtube.com/watch?v=rowoDjPc8HU) and [slides](https://www.slideshare.net/AlexeyGrigorev/ml-zoomcamp-course-overview-and-logistics)
 * [Course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR)
 * Register at [DataTalks.Club](https://DataTalks.Club) and join the `#course-ml-zoomcamp` channel to talk about the course 
+* [Course telegram channel](https://t.me/mlzoomcamp)
 
 
 ## Taking the course
@@ -13,11 +19,15 @@
 
 We start the course again in September 2022
 
-* [Sign up here](https://airtable.com/shryxwLd0COOEaqXo) (it's not automated, so you will not receive a confirmation email after filling the form)
+* [Sign up here](https://airtable.com/shryxwLd0COOEaqXo)
 * Register at [DataTalks.Club](https://DataTalks.Club/slack.html) and join the `#course-ml-zoomcamp` channel 
+* Join the [course telegram channel](https://t.me/mlzoomcamp)
 * Subscribe to the [public google calendar](https://calendar.google.com/calendar/?cid=cGtjZ2tkbGc1OG9yb2lxa2Vwc2g4YXMzMmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (subscribing works from desktop only)
 * [Tweet about it](https://ctt.ac/XZ6b9)
-* Tentative start date: September 5
+* Start date: September 5
+* If you have questions, check [FAQ](https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit)  
+* All the materials specific to the 2022 will be in [the 2022 cohort folder](./cohorts/2022/) 
+
 
 ### Self-paced mode
 
@@ -38,16 +48,20 @@ Of course, you can take each module independently.
 * Prior programming experience (at least 1+ year)
 * Being comfortable with command line 
 * No prior exposure to machine learning is required
-* Nice to have: Python (but you can learn it during the course)
+
+Nice to have but not mandatory
+
+* Python (but you can learn it during the course)
 * Prior exposure to linear algebra will be helpful (e.g. you studied it in college but forgot)
 
+## Asking questions
 
+The best way to get support is to use [DataTalks.Club's Slack](https://datatalks.club/slack.html). Join the [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) channel.
 
-## Previous cohorts
+To make discussions in Slack more organized:
 
-### 2021 Cohort
-
-* [The 100 leaderboard](cohorts/2021/leaderboard.md)
+* Follow [these recommendations](asking-questions.md) when asking for help
+* Read the [DataTalks.Club community guidelines](https://datatalks.club/slack/guidelines.html)
 
 
 ## 1. [Introduction to Machine Learning](01-intro/)
@@ -131,6 +145,11 @@ Of course, you can take each module independently.
 - 5.8 [Summary](05-deployment/08-summary.md)
 - 5.9 [Explore more](05-deployment/09-explore-more.md)
 - 5.10 [Homework](05-deployment/homework.md)
+
+
+## 5b. Bento ML
+
+More information coming soon! 
 
 
 ## 6. [Decision Trees and Ensemble Learning](06-trees/)
@@ -228,6 +247,14 @@ Writing an article about something not covered in the course.
 For those who love projects!
 
 
+## Previous cohorts
+
+### 2021 Cohort
+
+* [Homeworks](cohorts/2021)
+* [The 100 leaderboard](cohorts/2021/leaderboard.md)
+
+
 ## Our other courses
 
 If you liked this course, you'll like other courses from us:
@@ -235,3 +262,22 @@ If you liked this course, you'll like other courses from us:
 * [Data Engineering Zoomcamp - free 9-week course about Data Engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/)
 * [MLOps Zoomcamp - free 10-week course about MLOps](https://github.com/DataTalksClub/mlops-zoomcamp)
 
+
+
+## Supporters and partners
+
+Thanks to the course sponsors for making it possible to run this course
+
+<p align="center">
+  <a href="https://www.bentoml.com/">
+    <img height="100" src="../images/bentoml.png">
+  </a>
+</p>
+
+Thanks to our friends for spreading the word about the course
+
+<p align="center">
+  <a href="https://dphi.tech/">
+    <img height="75" src="https://datatalks.club/images/partners/dphi.png">
+  </a>
+</p>
