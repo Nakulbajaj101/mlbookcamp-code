@@ -159,11 +159,6 @@ To make discussions in Slack more organized:
 - 5.10 [Homework](05-deployment/homework.md)
 
 
-## 5b. Bento ML
-
-More information coming soon! 
-
-
 ## 6. [Decision Trees and Ensemble Learning](06-trees/)
 
 - 6.1 [Credit risk scoring project](06-trees/01-credit-risk.md)
@@ -180,7 +175,20 @@ More information coming soon!
 - 6.12 [Homework](06-trees/homework.md)
 
 
-## 7. [Midterm Project](07-midterm-project/)
+## 7. [Production-Ready Machine Learning (Bento ML)](07-bentoml-production/)
+
+- 7.1 [Intro/Session Overview](07-bentoml-production/01-intro.md)
+- 7.2 [Building Your Prediction Service with BentoML](07-bentoml-production/02-build-bento-service.md)
+- 7.3 [Deploying Your Prediction Service](07-bentoml-production/03-deploy-bento-service.md)
+- 7.4 [Sending, Receiving and Validating Data](07-bentoml-production/04-validation.md)
+- 7.5 [High-Performance Serving](07-bentoml-production/05-high-performance.md)
+- 7.6 [Bento Production Deployment](07-bentoml-production/06-production-deployment.md)
+- 7.7 [(Optional) Advanced Example: Deploying Stable Diffusion Model](07-bentoml-production/07-stable-diffusion.md)
+- 7.8 [Summary](07-bentoml-production/08-summary.md)
+- 7.9 [Homework](07-bentoml-production/homework.md)
+
+
+## [Midterm Project](projects/#midterm-project)
 
 Putting everything we've learned so far in practice!
 
@@ -233,7 +241,7 @@ Putting everything we've learned so far in practice!
 - 10.11 [Homework](10-kubernetes/homework.md)
 
 
-## 11. [KServe](11-kserve/)
+## 11. [KServe](11-kserve/) (optional)
 
 - 11.1 [Overview](11-kserve/01-overview.md)
 - 11.2 [Running KServe locally](11-kserve/02-kserve-local.md)
@@ -246,15 +254,15 @@ Putting everything we've learned so far in practice!
 - 11.9 [Explore more](11-kserve/09-explore-more.md)
 
 
-## 12. [Capstone Project](12-capstone/)
+## [Capstone Project 1](projects/#capstone-1)
 
 Putting everything we've learned so far in practice one more time!
 
-## 13. [Article](13-article/)
+## [Article](article/)
 
 Writing an article about something not covered in the course.
 
-## 14. [Third project](14-project) (optional)
+## [Capstone project 2](projects/#capstone-2) (optional)
 
 For those who love projects!
 
