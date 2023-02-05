@@ -65,38 +65,46 @@
 * [Homework](06-trees/homework.md)
 * Homework solution:
   * [Notebook](06-trees/homework_6.ipynb)
-* Office hours - to be added
+* [Office hours](https://www.youtube.com/watch?v=DOWSa2kR8-I&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 
 [**7. Production-Ready Machine Learning (Bento ML)**](07-bento-production/)
 
 * [Module materials](../../07-bentoml-production/)
 * [Homework](07-bento-production/homework.md)
-* Homework solution - to be added
-* Office hours - to be added
+* Homework solution:
+  * [Video](https://www.youtube.com/watch?v=BknNxERM2fk&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
+* [Office hours](https://www.youtube.com/watch?v=yKK7RgXlNdY&list=PL3MmuxUbc_hL5QBBEyKUXKuTNx-3cTpKs)
 
 
-**Midterm Project**
+[**Midterm Project**](projects.md#midterm-project)
 
 * More information: [projects.md](projects.md#midterm-project)
 
 
-**8. Neural Networks and Deep Learning**
+[**8. Neural Networks and Deep Learning**](08-deep-learning/)
 
 * [Module materials](../../08-deep-learning)
-* TBA
+* [Homework](08-deep-learning/homework.md)
+* Homework solution:
+  * [Notebook](08-deep-learning/homework_8.ipynb)
+* [Saturn Cloud: Notebooks with GPUs](https://bit.ly/saturn-mlzoomcamp) 
 
 
-**9. Serverless Deep Learning**
+[**9. Serverless Deep Learning**](09-serverless/)
 
 * [Module materials](../../09-serverless)
-* TBA
+* [Homework](09-serverless/homework.md)
+* Homework solution:
+  * [Code](09-serverless/homework/)
 
 
-**10. Kubernetes and TensorFlow Serving**
+[**10. Kubernetes and TensorFlow Serving**](10-kubernetes/)
 
 * [Module materials](../../10-kubernetes)
-* TBA
+* [Homework](10-kubernetes/homework.md)
+* Homework solution:
+  * [Code](10-kubernetes/homework/)
 
 
 **11. KServe (optional)**
@@ -104,9 +112,14 @@
 * [Module materials](../../11-kserve)
 * No homework
 
-**Capstone Project**
+[**Capstone Project**](projects.md#capstone-1)
 
-* TBA
+* More information: [projects.md](projects.md#capstone-1)
+
+
+[**Capstone Project 2**](projects.md#capstone-2)
+
+* More information: [projects.md](projects.md#capstone-2)
 
 
 **Article**
@@ -114,10 +127,11 @@
 * TBA
 
 
-**Third project (optional)**
+**[Image classification competition](https://www.kaggle.com/competitions/kitchenware-classification/)**
 
-* TBA
+If you liked our deep learning module, join us to build a model for classifying cups, glasses, plates, spoons, forks and knives.
 
+Submit your learning in public links [here](https://forms.gle/yBo5rfN1WkSqQ5xj8)
 
 
 ## Supporters and partners
