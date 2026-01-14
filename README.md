@@ -1,194 +1,251 @@
-# Machine Learning Bookcamp
+<h1 align="center">
+    <strong>Machine Learning Zoomcamp: A Free 4-Month Course on ML Engineering</strong>
+</h1>
 
-The code from the Machine Learning Bookcamp book
+<p align="center">
+<img src="images/ml-zoomcamp.png" alt="Machine Learning Zoomcamp" width="500" />
+</p>
 
-Useful links: 
+<p align="center">
+<a href="https://courses.datatalks.club/">Course platform with deadlines and submission forms for homework assignments and projects</a> •
+<a href="https://datatalks.club/slack.html"> Course Channel on Slack (#course-ml-zoomcamp) </a> •
+<a href="https://t.me/mlzoomcamp">Telegram Announcements</a> •
+<a href="https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR">Course Playlist</a> •
+<a href="https://datatalks.club/faq/machine-learning-zoomcamp.html">FAQ</a> •
+<a href="https://ctt.ac/XZ6b9">Tweet about the Course</a>
+</p>
 
-* [https://mlbookcamp.com](https://mlbookcamp.com): supplimentary materials
-* [https://datatalks.club](https://datatalks.club): the place to talk about data (and the book: join the `#ml-bookcamp` channel to ask questions about the book and report any problems)
 
 
-## Machine Learning Zoomcamp
+<p align="center">
+Learn machine learning engineering end-to-end, from core models to deploying real applications.
+</p>
 
-<a href="course-zoomcamp"><img src="images/zoomcamp.jpg" /></a>
+<p align="center">
+Build regression and classification models in Python, work with key algorithms like linear/logistic regression, decision trees, and deep learning, and then take them to production using Docker, FastAPI, Kubernetes, and AWS Lambda.
+</p>
 
-Machine Learning Zoomcamp is a course based on the book
+<p align="center">
+<a href="https://airtable.com/shryxwLd0COOEaqXo"><img src="https://user-images.githubusercontent.com/875246/185755203-17945fd1-6b64-46f2-8377-1011dcb1a444.png" height="50" /></a>
+</p>
 
-* It's online and free
-* You can join at any moment
-* More information in the [course-zoomcamp](course-zoomcamp) folder
+## Table of Contents
+- [What This Course Is About](#about-ml-zoomcamp)
+- [Prerequisites](#prerequisites)
+- [How to Join](#how-to-join)
+- [Syllabus](#syllabus)
+- [Community & Getting Help](#community--getting-help)
+- [Certificates](#certificates)
+- [Sponsors](#sponsors)
+- [About DataTalks.Club](#about-datatalksclub)
 
+## About ML Zoomcamp
+Machine Learning Zoomcamp teaches you the complete machine learning engineering, covering the entire pipeline: from building models with Python to deploying them in production environments.
 
-## Reading Plan
+<p align="center">
+<img src="https://github.com/DataTalksClub/datatalksclub.github.io/blob/main/images/posts/2024-04-11-guide-to-free-online-courses-at-datatalks-club/ml_zoomcamp_overview_horizontal_2025.png" alt="ML Zoomcamp course overview showing progression from ML algorithms (Python, NumPy, Pandas, Scikit-learn) to deployment (Docker, FastAPI, Kubernetes)" title="ML Zoomcamp course overview: ML algorithms to deployment" width="500" />
+</p>
 
-<img src="images/plan.png" />
+You’ll master the key ML algorithms like linear regression, logistic regression, decision trees, and deep learning with TensorFlow and PyTorch, then learn to containerize with Docker, build APIs with FastAPI, and scale with Kubernetes and AWS Lambda.
 
+## Prerequisites
 
-# Chapters
+**You'll need:**
+- Prior programming experience (at least 1+ year)
+- Comfort with command line basics
 
-## Chapter 1: Introduction to Machine Learning
+You don't need any prior experience with machine learning. We'll start from the basics.
 
-* Understanding machine learning and the problems it can solve
-* CRISP-DM: Organizing a successful machine learning project
-* Training and selecting machine learning models
-* Performing model validation
+**Technical setup**: For machine learning modules, you only need a laptop with an internet connection. For deep learning sections, we'll use cloud resources for more intensive computations.
 
-No code
+## How to Join
 
+You can join ML Zoomcamp either by **following a live cohort** or **learning at your own pace**.
 
-## Chapter 2: Machine Learning for Regression
+All materials are freely available in this repository. Each module has its own folder (e.g., `01-intro`, `03-classification`), and cohort-specific homework and deadlines are in the `cohorts` directory. Lectures are pre-recorded and available in this [YouTube playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hIhxl5Ji8t4O6lPAOpHaCLR).
 
-* Creating a car-price prediction project with a linear regression model
-* Doing an initial exploratory data analysis with Jupyter notebooks
-* Setting up a validation framework 
-* Implementing the linear regression model from scratch
-* Performing simple feature engineering for the model
-* Keeping the model under control with regularization
-* Using the model to predict car prices
+```mermaid
+flowchart TD
+    A["Want to learn Machine Learning Zoomcamp"] --> B{"Do you want<br/>deadlines & a certificate?"}
 
-Code: [chapter-02-car-price/02-carprice.ipynb](chapter-02-car-price/02-carprice.ipynb)
+    B -->|Yes| C["Join Live Cohort"]
+    B -->|No / Not sure| D["Self-Paced Learning"]
 
-## Chapter 3: Machine Learning for Classification
+    C --> C1["Fixed schedule (Sept–Dec)"]
+    C --> C2["Scored homework + leaderboard"]
+    C --> C3["2 projects + peer review"]
+    C --> C4["Eligible for certificate"]
 
-* Predicting customers who will churn with logistic regression
-* Doing exploratory data analysis for identifying important features
-* Encoding categorical variables to use them in machine learning models
-* Using logistic regression for classification
+    D --> D1["Start anytime, go at your own pace"]
+    D --> D2["Unscored homework & optional projects"]
+    D --> D3["No certificate"]
+```
 
-Code: [chapter-03-churn-prediction/03-churn.ipynb](chapter-03-churn-prediction/03-churn.ipynb)
+### Option 1: Self-Paced Learning
 
-## Chapter 4: Evaluation Metrics for Classification
+Start anytime. You get full access to materials and community support on Slack.
 
-* Accuracy as a way of evaluating binary classification models and its limitations
-* Determining where our model makes mistakes using a confusion table
-* Deriving other metrics like precision and recall from the confusion table
-* Using ROC and AUC to further understand the performance of a binary classification model 
-* Cross-validating a model to make sure it behaves optimally
-* Tuning the parameters of a model to achieve the best predictive performance
+Complete homework assignments: homework and solutions are available on the [course platform](https://courses.datatalks.club). Build a project for your portfolio.
 
-Code: [chapter-03-churn-prediction/04-metrics.ipynb](chapter-03-churn-prediction/04-metrics.ipynb)
+> Under self-paced learning, homework isn't scored, your project isn't peer-reviewed, and you can't earn a certificate.
 
-## Chapter 5: Deploying Machine Learning Models
+### Option 2: Live Cohort
 
-* Saving models with Pickle
-* Serving models with Flask
-* Managing dependencies with Pipenv
-* Making the service self-contained with Docker
-* Deploying it to the cloud using AWS Elastic Beanstalk
+> **2025 Cohort:** Starts September 15. Register here: [Fill in this form](https://airtable.com/shryxwLd0COOEaqXo)
 
-Code: [chapter-05-deployment](chapter-05-deployment)
+Runs once per year (September–December).
 
-## Chapter 6: Decision Trees and Ensemble Learning
+Includes:
+- Updated homework
+- Automatic homework scoring and a leaderboard
+- Project peer review
+- Eligibility for a certificate after meeting all requirements
+
+Even if you join after the official start date, you can still follow along — but note that some homework forms may already be closed. All active deadlines are listed on the [course platform](https://courses.datatalks.club).
+
+> To earn a [certificate](#certificate), you'll need enough time to complete two [projects](#projects) and the required peer reviews. Details are in the Projects and Certificate sections.
+
+### Comparison
 
-* Predicting the risk of default with tree-based models
-* Decision trees and the decision tree learning algorithm
-* Random forest: putting multiple trees together into one model
-* Gradient boosting as an alternative way of combining decision trees 
+We summarized the key differences between the two joining options in this table:
+| Feature | Self-Paced | Live Cohort |
+|---------|------------|-------------|
+| **Timing** | Learn at your own pace, start anytime | Fixed 4-month schedule (September–December each year) |
+| **Course Materials** | Full access to GitHub repository and YouTube lectures | Full access to GitHub repository and YouTube lectures |
+| **Community** | Access to Slack community (`#course-ml-zoomcamp`) | Access to Slack community (`#course-ml-zoomcamp`) |
+| **Homework** | Available but not scored | Scored automatically, appears on leaderboard |
+| **Projects** | Build on your own, no evaluation | Submit 2 projects (midterm + capstone OR two capstones) with peer review |
+| **Certificate** | Not available | Available after completing projects and peer reviews |
+| **Structure** | Flexible, no deadlines | Weekly rhythm with deadlines and peer accountability |
+
+<p align="center">
+  <strong>Ready to start? <a href="https://airtable.com/shryxwLd0COOEaqXo">Join the 2025 cohort</a> or <a href="01-intro/">start with Module 1</a></strong>
+</p>
 
-Code: [chapter-06-trees/06-trees.ipynb](chapter-06-trees/06-trees.ipynb)
+## Syllabus
 
-## Chapter 7: Neural Networks and Deep Learning
+| Module | Description | Topics |
+|--------|-------------|--------|
+| **[Module 1: Introduction to Machine Learning](01-intro/)** | Learn the fundamentals: what ML is, when to use it, and how to approach ML problems using the CRISP-DM framework. | • ML vs rule-based systems<br>• Supervised learning basics<br>• CRISP-DM methodology<br>• Model selection concepts<br>• Environment setup |
+| **[Module 2: Machine Learning for Regression](02-regression/)** | Build a car price prediction model while learning linear regression, feature engineering, and regularization. | • Linear regression (from scratch and with scikit-learn)<br>• Exploratory data analysis<br>• Feature engineering<br>• Regularization techniques<br>• Model validation |
+| **[Module 3: Machine Learning for Classification](03-classification/)** | Create a customer churn prediction system using logistic regression and learn about feature selection. | • Logistic regression<br>• Feature importance and selection<br>• Categorical variable encoding<br>• Model interpretation |
+| **[Module 4: Evaluation Metrics for Classification](04-evaluation/)** | Learn how to properly evaluate classification models and handle imbalanced datasets. | • Accuracy, precision, recall, F1-score<br>• ROC curves and AUC<br>• Cross-validation<br>• Confusion matrices<br>• Class imbalance handling |
+| **[Module 5: Deploying Machine Learning Models](05-deployment/)** | Turn your models into web services and deploy them with Docker and cloud platforms. | • Model serialization with Pickle<br>• FastAPI web services<br>• Docker containerization<br>• Cloud deployment |
+| **[Module 6: Decision Trees & Ensemble Learning](06-trees/)** | Learn tree-based models and ensemble methods for better predictions. | • Decision trees<br>• Random Forest<br>• Gradient boosting (XGBoost)<br>• Hyperparameter tuning<br>• Feature importance |
+| **[Midterm Project](projects/)** |  |  |
+| **[Module 8: Neural Networks & Deep Learning](08-deep-learning/)** | Introduction to neural networks using TensorFlow and Keras, including CNNs and transfer learning. | • Neural network fundamentals<br>• PyTorch<br>• TensorFlow & Keras<br>• Convolutional Neural Networks<br>• Transfer learning<br>• Model optimization |
+| **[Module 9: Serverless Deep Learning](09-serverless/)** | Deploy deep learning models using serverless technologies like AWS Lambda. | • Serverless concepts<br>• Deploying Scikit-Learn models with AWS Lambda<br>• Deploying TensorFlow and PyTorch models with AWS Lambda<br>• API Gateway |
+| **[Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/)** | Learn to serve ML models at scale using Kubernetes and TensorFlow Serving. | • Kubernetes basics<br>• TensorFlow Serving<br>• Model deployment and scaling<br>• Load balancing |
+| **[Capstone project 1](projects/)** |  |  |
+| **[Capstone project 2](projects/)** |  |  |
 
-* Convolutional neural networks for image classification 
-* TensorFlow and Keras — frameworks for building neural networks 
-* Using pre-trained neural networks
-* Internals of a convolutional neural network
-* Training a model with transfer learning
-* Data augmentations — the process of generating more training data
+### Projects
 
-Code: [chapter-07-neural-nets/07-neural-nets-train.ipynb](chapter-07-neural-nets/07-neural-nets-train.ipynb)
+Choose a problem that interests you, find a suitable dataset, develop your model, and deploy it as a web service.
 
-## Chapter 8: Serverless Deep Learning
+There will be 3 projects:
+1. [Midterm Project](projects/) after [Module 6: Decision Trees & Ensemble Learning](06-trees/)
+2. [Capstone project 1](projects/) at the end of the course, after [Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/)
+3. [Capstone project 2](projects/) at the end of the course, after [Module 10: Kubernetes & TensorFlow Serving](10-kubernetes/)
+
+These projects allow you to apply everything you've learned and make a great addition to your GitHub profile and portfolio.
 
-* Serving models with TensorFlow-Lite — a light-weight environment for applying TensorFlow models
-* Deploying deep learning models with AWS Lambda
-* Exposing the Lambda function as a web service via API Gateway
+#### Project Examples from Past Cohorts
 
-Code: [chapter-08-serverless](chapter-08-serverless)
+<p align="center">
+<img src="https://github.com/DataTalksClub/datatalksclub.github.io/blob/main/images/posts/2025-08-11-tab-1-how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp/image9.png" alt="Machine Learning Zoomcamp certificate of completion awarded after successfully completing projects and peer reviews" title="ML Zoomcamp Certificate of Completion" width="500", align=center />
+<p align="center"> <i> A local deployment architecture using Kubernetes with Kind from one of the students' projects </i> </p>
+</p>
 
-## Chapter 9: Kubernetes and Kubeflow 
+Some of the course projects from past cohorts:
+- [Blood cell classifier for cancer prediction](https://datatalks.club/blog/how-to-build-blood-cell-classifier-for-cancer-prediction-case-study-from-ml-zoomcamp.html): an end-to-end tool that segments and classifies blood cells from microscope images to assist in detecting signs of acute lymphoblastic leukemia (ALL)
+- [Waste classifier](https://datatalks.club/blog/how-to-build-waste-classifier-case-study-from-ml-zoomcamp.html): an Xception-based image classifier on ~15,000 waste images, reaching 93.3% test accuracy, and serving predictions via a Flask API packaged in Docker
 
-Kubernetes:
+## Certificate
+<p align="center">
+<img src="https://github.com/DataTalksClub/datatalksclub.github.io/blob/main/images/posts/2023-08-17-machine-learning-zoomcamp/ml-zoomcamp-certificate.jpg" alt="Machine Learning Zoomcamp certificate of completion awarded after successfully completing projects and peer reviews" title="ML Zoomcamp Certificate of Completion" width="500", align=center />
+<p align="center"> <i> Machine Learning Zoomcamp certificate awarded upon successful completion </i> </p>
+</p>
 
-* Understanding different methods of deploying and serving models in the cloud.
-* Serving Keras and TensorFlow models with TensorFlow-Serving
-* Deploying TensorFlow-Serving to Kubernetes
+To receive a certificate, you'll need to complete and submit two projects:
 
-Code: [chapter-09-kubernetes](chapter-09-kubernetes)
+1. **Complete two projects**: Submit either a midterm project and a capstone project, OR two capstone projects
+2. **Submit on time**: Meet the project submission deadlines to qualify for certification
+3. **Peer review**: Evaluate and provide feedback on 3 fellow students' projects during the peer review process
 
-Kubeflow:
+## Testimonials
 
-* Using Kubeflow and KFServing for simplifying the deployment process
+> Machine Learning Zoomcamp was exhaustive, with very comprehensive content that covered concepts in depth. You can learn everything from the simplest concepts to preparing and deploying an ML model for production. Additionally, the entire community behind this course is highly participative and collaborative. I would like to thank Alexey Grigorev for all the knowledge he shared with us and his team for providing the support we needed to solve each problem we faced.
+>
+> - [Alexander Daniel Rios](https://www.linkedin.com/in/alexander-daniel-rios) ([Source](https://www.linkedin.com/posts/alexander-daniel-rios_mlzoomcamp-activity-7295527609239584768-TWHh))
 
-Code: [chapter-09-kubeflow](chapter-09-kubeflow)
+> Machine Learning Zoomcamp has been an incredible journey, thanks to the expert guidance of Alexey Grigorev. Hugely grateful to Alexey, Timur, and the entire DataTalksClub team for this course, and to my cohort batchmates for the invaluable support that enriched my learning experience. I’m thankful for this programme, which provided challenging coursework that is taught in a very structured and lucid way. The timely assignments & hands-on projects instill the sense of timely delivery, besides equipping us with practical acumen to solve real-life problems.
+>
+> - [Siddhartha Gogoi](https://www.linkedin.com/in/siddhartha-gogoi) ([Source](https://www.linkedin.com/posts/activity-7299906113997524994-R-oD?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJu9vMBW6iyIYswCQnN6t8UJLkXH2tQPi4))
 
+> Balancing the intensive Machine Learning Zoomcamp with my other engagements was no easy task, but the experience deepened my expertise in machine learning engineering, reinforced my passion for ML deployment and cloud technologies, and strengthened my resilience in handling real-world ML challenges. Thank you, Alexey Grigorev, for this course!
+>
+> - [Patrick Edosoma](https://www.linkedin.com/in/patrickedosoma) ([Source](https://www.linkedin.com/posts/patrickedosoma_machinelearning-mlzoomcamp-datascience-activity-7299090071201193985-JyuC))
 
-Articles from [mlbookcamp.com](https://mlbookcamp.com):
+> Highly recommend the ML Zoomcamp for anyone wanting a structured path to production-ready machine learning. A big thank you - Alexey Grigorev and to the team at DataTalksClub for providing such a well-structured and engaging course.
+>
+> - [Abdiaziz Mohamed](https://www.linkedin.com/in/abdiaziz-mohamed) ([Source 1](https://www.linkedin.com/posts/abdiaziz-mohamed_machinelearning-deployment-docker-activity-7257086439333523456-CyK4), [Source 2](https://www.linkedin.com/posts/abdiaziz-mohamed_machinelearningzoomcamp-machinelearning-kubernetes-activity-7277039208072904704-OAiY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJu9vMBW6iyIYswCQnN6t8UJLkXH2tQPi4))
 
-* [Creating an EKS Cluster](https://mlbookcamp.com/article/eks)
-* [Creating a KFServing Cluster on EKS](https://mlbookcamp.com/article/kfserving-eks-install)
-* [KFServing Transformers](https://mlbookcamp.com/article/kfserving-transformers)
+> A huge thank you to Alexey Grigoriev for creating such an amazing course—and making it free! It’s truly inspiring.
+>
+> - [Guilherme Pereira](https://www.linkedin.com/in/guilherme-torres-pereira) ([Source](https://www.linkedin.com/posts/guilherme-torres-pereira_alexeygrigoriev-mlzoomcamp-machinelearning-activity-7396336012018356224-sK27))
 
-# Appendices 
+> Huge thanks to Alexey Grigorev and the DataTalksClub community for the incredible support and clarity throughout. The open-source spirit and collaborative notes made the learning experience even richer.
+>
+> - [Rajendra Rawale](https://www.linkedin.com/in/rajendra1x) ([Source](https://www.linkedin.com/posts/rajendra1x_machinelearning-mlzoomcamp-datatalksclub-activity-7378450260999852032-V5Z1))
 
-## Appendix A: Setting up the Environment
+<p align="center">
+  <strong>Ready to start? <a href="https://airtable.com/shryxwLd0COOEaqXo">Join the 2025 cohort</a> or <a href="01-intro/">start with Module 1</a></strong>
+</p>
 
-* Installing Anaconda, a Python distribution that includes most of the scientific libraries we need
-* Running a Jupyter Notebook service from a remote machine
-* Installing and configuring the Kaggle command line interface tool for accessing datasets from Kaggle
-* Creating an EC2 machine on AWS using the web interface and the command-line interface
+## Community & Getting Help
 
-Code: no code
+### Where to Get Help
+- **Slack**: [`#course-ml-zoomcamp`](https://app.slack.com/client/T01ATQK62F8/C0288NJ5XSA) channel
+- **FAQ**: [Common questions and answers](https://datatalks.club/faq/machine-learning-zoomcamp.html)
+- **Study Groups**: Connect with other learners
 
-Articles from [mlbookcamp.com](https://mlbookcamp.com):
+### Community Guidelines
+- Check the [FAQ](https://datatalks.club/faq/machine-learning-zoomcamp.html) first
+- Follow our [question guidelines](asking-questions.md)
+- Be helpful and respectful
+- Share your learning journey
 
-* [Creating an AWS account](https://mlbookcamp.com/article/aws)
-* [Renting an EC2 instance](https://mlbookcamp.com/article/aws-ec2)
+### Learning in Public
+We encourage sharing your progress! Write blog posts, create videos, post on social media with #mlzoomcamp. It helps you learn better and builds your professional network.
 
+**Bonus**: You can earn extra points for sharing your learning experience publicly.
 
-## Appendix B: Introduction to Python
+Learn more: [Learning in Public](learning-in-public.md)
 
-* Basic python syntax: variables and control-flow structures
-* Collections: lists, tuples, sets, and dictionaries
-* List comprehensions: a concise way of operating on collections
-* Reusability: functions, classes and importing code
-* Package management: using pip for installing libraries
-* Running python scripts 
+## Sponsors
 
-Code: [appendix-b-python.ipynb](appendix-b-python.ipynb)
+Interested in sponsoring? Contact [alexey@datatalks.club](mailto:alexey@datatalks.club).
 
-Articles from [mlbookcamp.com](https://mlbookcamp.com):
+## About DataTalks.Club
 
-* [Introduction to Python](https://mlbookcamp.com/article/python)
+<p align="center">
+  <img width="40%" src="https://github.com/user-attachments/assets/1243a44a-84c8-458d-9439-aaf6f3a32d89" alt="DataTalks.Club">
+</p>
 
+<p align="center">
+<a href="https://datatalks.club/">DataTalks.Club</a> is a global online community of data enthusiasts. It's a place to discuss data, learn, share knowledge, ask and answer questions, and support each other.
+</p>
 
-## Appendix C: Introduction to NumPy and Linear Algebra
+<p align="center">
+<a href="https://datatalks.club/">Website</a> •
+<a href="https://datatalks.club/slack.html">Join Slack Community</a> •
+<a href="https://us19.campaign-archive.com/home/?u=0d7822ab98152f5afc118c176&id=97178021aa">Newsletter</a> •
+<a href="http://lu.ma/dtc-events">Upcoming Events</a> •
+<a href="https://www.youtube.com/@DataTalksClub/featured">YouTube</a> •
+<a href="https://github.com/DataTalksClub">GitHub</a> •
+<a href="https://www.linkedin.com/company/datatalks-club/">LinkedIn</a> •
+<a href="https://twitter.com/DataTalksClub">Twitter</a>
+</p>
 
-* One-dimensional and two-dimensional NumPy arrays
-* Generating NumPy arrays randomly
-* Operations with NumPy arrays: element-wise operations, summarizing operations, sorting and filtering
-* Multiplication in linear algebra: vector-vector, matrix-vector and matrix-matrix multiplications
-* Finding the inverse of a matrix and solving the normal equation
-
-Code: [appendix-c-numpy.ipynb](appendix-c-numpy.ipynb)
-
-Articles from [mlbookcamp.com](https://mlbookcamp.com):
-
-* [Introduction to NumPy](https://mlbookcamp.com/article/numpy)
-
-
-## Appendix D: Introduction to Pandas
-
-* The main data structures in Pandas: DataFrame and Series
-* Accessing rows and columns of a DataFrame
-* Element-wise and summarizing operations
-* Working with missing values
-* Sorting and grouping
-
-Code: [appendix-d-pandas.ipynb](appendix-d-pandas.ipynb)
-
-## Appendix E: AWS SageMaker
-
-
-* Increasing the GPU quota limits
-* Renting a Jupyter notebook with GPU in AWS SageMaker
+All the activity at DataTalks.Club mainly happens on [Slack](https://datatalks.club/slack.html). We post updates there and discuss different aspects of data, career questions, and more.
